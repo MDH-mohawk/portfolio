@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header li{
+    margin: 5px;
+}
+
+#banner h1{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+#banner{
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#projects{
+    display: flex;
+    justify-content: space-around;
+
+}
+.project{
+    display: flex;
+    flex-direction: column;
+}
