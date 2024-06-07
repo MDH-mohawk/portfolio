@@ -13,6 +13,9 @@ font-family: 'Comfortaa';
 hr{
     width: 90%;
 }
+#logo{
+    height: 100px;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -26,12 +29,17 @@ header ul{
     display: flex;
     list-style: none;
     font-size: 20px;
+    box-shadow: 4px 4px 10px inset rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
 }
 
 header li{
-margin: 0 30px;
-padding: 10px;
+margin: 20px 20px;
+padding: 20px 30px;
 transition: 1s;
+border-radius: 30px;
+background-color: #93FFD8;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 header a:hover{
