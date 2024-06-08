@@ -37,10 +37,14 @@ header ul{
 header li{
 margin: 20px 20px;
 padding: 20px 30px;
-transition: 1s;
 border-radius: 30px;
-background-color: #93FFD8;
+background-color: white;
 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header li:hover{
+background-color: #93FFD8;
+box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 header a:hover{
@@ -103,16 +107,15 @@ color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #93FFD8;
+    background-color: white;
     padding: 10px;
     border-radius: 5%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    transition: 1s;
 }
 
 .project:hover{
     box-shadow: 2px 2px 5px inset rgba(0, 0, 0, 0.35);
-    transition: 1s;
+    background-color: #93FFD8;
 }
 
 .project img{
@@ -122,20 +125,46 @@ color: black;
     border-radius: 5%;
 }
 
+#contact{
+    display: flex;
+    align-items: center;
+}
+
 #contact_zoeken{
     font-family: 'Comfortaa';
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 200px;
     align-items: center;
+    background-color: #93FFD8;
+    margin: 100px auto;
+    width:400px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.5);
+    
 }
 #contact_zoeken h2{
-    font-size: 20px;
+    font-size: 30px;
 }
 #contact_zoeken button{
+    width: 60%;
+    padding:20px;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Comfortaa';
+    border-radius: 40px;
+    border: none;
+    background-color: #2B956F;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
+}
+ 
+#contact_zoeken button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /*Contact page */
