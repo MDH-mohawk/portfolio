@@ -320,3 +320,58 @@ width: 80%;
      transition: 0.5s;
      background-color: #34F0AC;
 }
+
+/* project page*/
+
+#back_button{
+    display: flex;
+    margin-left: 30px;
+}
+#back_button p{
+    padding:20px;
+}
+
+#back_button p:hover{
+    background-color: #34F0AC;
+}
+
+#project_header{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+    font-size: 50px;
+}
+
+#project_header img{
+    object-fit: contain;
+}
+
+#project_link{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#project_link img{
+    width: 80%;
+}
+
+#project_link a{
+    margin: 40px;
+    background-color:#34F0AC;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+    inset 0px 0px 0px rgba(0, 0, 0, 0.5);
+    transition:0.5s;
+    font-size: 20px;
+}
+
+#project_link a:hover{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
