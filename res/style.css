@@ -129,7 +129,7 @@ color: black;
 .project img{
     width: 300px;
     height: 300px;
-    object-fit:cover;
+    object-fit:contain;
     border-radius: 5%;
 }
 
@@ -287,7 +287,7 @@ align-items: center;
     width: 500px;
     background-color: #34F0AC;
     border-radius: 5%;
-    box-shadow: inset 4px 4px 15px rgba(0, 0, 0, 0.75);
+    box-shadow:4px 4px 10px rgba(0, 0, 0, 0.75);
 }
 
 #personal_info h1{
@@ -305,12 +305,13 @@ width: 80%;
 #cv_section button{
     background-color: #93FFD8;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
     border-radius: 40px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
      0px 0px 0px inset rgba(0, 0, 0, 0.5);
      transition: 0.5s;
+     font-family: 'Comfortaa';
 }
 
 #cv_section button:hover{
